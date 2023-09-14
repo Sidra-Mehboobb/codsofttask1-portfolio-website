@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Cookie&family=Covered+By+Your+Grace&family=Kalam:wght@300&family=Monoton&family=Noto+Serif:ital,wght@1,100;1,200&family=Roboto+Condensed:ital,wght@1,300&family=Satisfy&display=swap');
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: wheat;
+      height: 2200px;
+      position:sticky;
+}
+
+.container {
+     background: darksalmon; 
+    border-radius: 10%;
+    height: 150px;
+}
+
+.navbar {
+    display: flex;
+
+}
+
+.navbar ul {
+    text-align: right; 
+}
+
+.navbar ul li {
+    display: flex;
+    float: left;
+    padding: auto 23px;
+    margin: auto;
+
+} 
+
+.navbar a {
+     text-align: right; 
+}
+
+.navbar ul li a {
+    padding: 15px 25px;
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
+}
+
+h2 {
+    padding: 45px 200px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    line-gap-override: none;
+
+}
+
+
+.item ul a {
+    gap: 20px;
+    float: right;
+    margin-right: 5%;
+    list-style-type: none;
+    flex: 10;
+    font-weight: 15px;
+}
+
+.navbar li a:hover {
+    background-color: wheat;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 80%;
+    margin: 10px 0 auto 0;
+    padding-top: 100px;
+
+}
+
+.section p {
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 90px;
+}
+
+.section h3 {
+    padding-top: 10px;
+    padding-left: 100px;
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+}
+
+
+
+.section img {
+    display: flex;
+    border-radius: 40%;
+    height: 200px;
+    justify-content: space-between;
+    justify-content: right;
+    box-shadow: 5px 5px 8px rgb(107, 84, 84);
+
+
+}
+ /* hover the section */
+.section:hover
+{
+  transform: scale(1.1);
+  transition: all 1s ease-in;
+  transition: all 1s ease-out;
+}
+
+
+
+
+/* About Section */
+.About {
+    /* font-family: 'Black Ops One'; */
+     font-family: 'Courier New', Courier, monospace; 
+    line-height: 192%;
+    font-size: 20px;
+    margin-top: 17px;
+    margin-bottom: 123px;
+    text-align: center;
+    padding-top: 30px;
+}
+.About:hover
+{
+  transform: scale(1.2);
+  transition: all 1s ease-in;
+  transition: all 1s ease-out;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 400px;
+    padding: 40px;
+    width: 80%;
+}
+
+#heading {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+    padding-top: 40px;
+    top:0 ;
+    font-size: 25px;
+    margin-left: 0px;
+}
+
+.section2 img {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    float: left;
+    border-radius: 30%;
+    margin-left: 100px;
+    justify-content: left;
+    box-shadow: 7px 7px 6px rgb(107, 84, 84);
+}
+.section2 .info2:hover {
+    font-weight: bold;
+} 
+
+#item {
+    height: 50px;
+    width: 90px;
+    top: 0;
+    padding-left: 7px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.info0
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section2 .info1
+{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    text-align: center;
+    grid-gap: 2rem;
+    margin-top: 30px;
+    margin-left: 14px;
+}      
+
+.content2 .info2{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 1rem;
+    text-align: center;
+        grid-gap: 2rem;
+    margin-top: 30px;
+}
+.section2 .info2
+{
+       font-size: 17px;
+       background-color: darksalmon;
+       padding: 10px;
+       margin-left: 62px;
+       border-radius: 15px;
+       width: 110px;
+       display: block; 
+       cursor: pointer;
+       box-shadow: 5px 10px 15px brown;
+} 
+.section2:hover
+{
+  transform: scale(1.1);
+  transition: all 1s ease-in;
+  transition: all 1s ease-out;
+}
+
+ /* Projects */
+
+.container1
+{
+    margin-top: 70px;
+    margin-left: 17px;
+}
+
+.projectcontext
+{
+    display: inline-block; 
+}
+h4
+{
+    margin-left: 85px;
+    font-family: 'Black Ops One', cursive;
+}
+#heading1
+{
+    margin-left: 45px;;
+}
+.container1 img{
+      width:120px; 
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(107, 84, 84);
+}
+.container1 img:hover{
+    transform: scale(1.2);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+.description  p{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button1
+{
+    border: 2px solid brown;
+    background-color: darksalmon;
+    margin-left: 60px;
+    margin-bottom :15px ;
+    border-radius: 5px;
+    padding: 3px;  
+    cursor: pointer; 
+}
+.button1:hover{
+    font-size: large;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+    transition: all 1s ease-out;
+}
+ /* Graphics */
+ .button2
+ {
+    text-align: center;
+    padding: 20px;
+    margin-left: 400px;
+    border: 2px solid brown;
+    background-color: darksalmon;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+  .button2:hover{
+    transform: scale(1.1);
+    transition: all 1s ease-in;
+    transition: all 1s ease-out;
+  }
+
+#section4 p
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; ;
+}
+    
+#section4:hover
+{
+  transform: scale(1.1);
+  transition: all 1s ease-in-out;
+  transition: all 1s ease-out;
+}
+
+/* Button for Resume section */
+.buttons
+{
+         background: darksalmon;
+         color: white;
+         border: 2px solid brown;
+         cursor: pointer;
+         border-radius: 7px;
+         width: 50px;
+         padding: 6px;
+         margin-top: 70px;
+         margin-left: 550px;
+         box-shadow: 5px 5px 5px brown;
+}
+
+
+ #section5 p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+    padding: 12px;
+    margin-left: 35px;
+    
+ }
+ #section5 div{
+         display: flex;
+    justify-content: center;
+     width: 1200px; 
+    height: 80px;
+  
+ }
+ #section5 div img{
+    height: 30px;
+    margin-left: 12px;
+    border-radius: 15px;
+   
+}  
+#section5:hover
+{
+  transform: scale(1.1);
+  transition: all 1s ease-in;
+  transition: all 1s ease-out;
+}
+
+ 
+ .links {
+    margin: 30px 0px;
+    justify-content: center;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+
+}
+.links li{
+    list-style: none;
+}
+.links ul li a {
+    justify-content: center;
+    font-size: larger;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.4cm;
+    opacity: 0.7;
+    transition: 0.5s;
+    font-size: small;
+     margin-bottom: 130px;
+    float: right;
+}
+.links ul li img{
+    margin-left: 250px;
+     cursor: pointer;
+     box-shadow: 5px 5px 5px rgb(190, 99, 99);
+}
+
+.insta li img 
+{
+    margin-left: 290px;
+}
+
+
+/* Button Styling */
+.button {
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-left: 580px;
+    background: darksalmon;
+    color: whitesmoke;
+    border: 2px solid rgb(146, 50, 50);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 6px;
+    width: 50px;
+    box-shadow: 5px 5px 5px brown;
+}
+
+/* When hover the button */
+.button:hover {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 250px;
+    background-color: darksalmon;
+    color: black;
+    border-radius: 10%;
+}
+
+ 
